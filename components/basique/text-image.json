@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_basique_text_images",
+  "info": {
+    "name": "text_image",
+    "icon": "indent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "positionImage": {
+      "type": "enumeration",
+      "enum": [
+        "gauche",
+        "droite",
+        "bas",
+        "haut"
+      ],
+      "default": "bas"
+    }
+  }
+}
