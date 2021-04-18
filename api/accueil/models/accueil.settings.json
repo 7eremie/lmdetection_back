@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "accueils",
+  "info": {
+    "name": "Accueil"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Contenu": {
+      "type": "dynamiczone",
+      "components": [
+        "basique.text-image"
+      ]
+    }
+  }
+}
