@@ -36,7 +36,7 @@
     },
     "page_id": {
       "type": "uid",
-      "targetField": "Navigation"
+      "targetField": "Titre"
     }
   }
 }
