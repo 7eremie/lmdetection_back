@@ -2,7 +2,7 @@
   "kind": "singleType",
   "collectionName": "configurations",
   "info": {
-    "name": "Global",
+    "name": "Configuration",
     "description": ""
   },
   "options": {
