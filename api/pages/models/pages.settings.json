@@ -37,6 +37,10 @@
     "page_id": {
       "type": "uid",
       "targetField": "Titre"
+    },
+    "punaises_active": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

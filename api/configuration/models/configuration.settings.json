@@ -16,6 +16,15 @@
     },
     "pages": {
       "collection": "pages"
+    },
+    "titre_404": {
+      "type": "string"
+    },
+    "text_404": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "richtext"
     }
   }
 }
