@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "accueils",
   "info": {
-    "name": "Accueil"
+    "name": "Accueil",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,22 +14,16 @@
     "Titre": {
       "type": "string"
     },
-    "Image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "Contenu": {
       "type": "dynamiczone",
       "components": [
         "basique.text-image"
       ]
+    },
+    "Slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "accueil.slider"
     }
   }
 }

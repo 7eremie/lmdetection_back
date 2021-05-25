@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_accueil_sliders",
+  "info": {
+    "name": "Slider",
+    "icon": "desktop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "accueil.slide"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_accueil_slides",
+  "info": {
+    "name": "Slide",
+    "icon": "chevron-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "lien": {
+      "model": "pages"
+    },
+    "arrierePlan": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "galerie": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
