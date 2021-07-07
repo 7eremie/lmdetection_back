@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_basique_navigations",
+  "info": {
+    "name": "Menu",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Entree": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.entree"
+    }
+  }
+}

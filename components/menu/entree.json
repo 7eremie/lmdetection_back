@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menu_entrees",
+  "info": {
+    "name": "Entree",
+    "icon": "grip-lines",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "model": "pages"
+    },
+    "souspages": {
+      "collection": "pages"
+    }
+  }
+}

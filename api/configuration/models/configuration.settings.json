@@ -25,6 +25,22 @@
     },
     "contact": {
       "type": "richtext"
+    },
+    "Menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.navigation"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
