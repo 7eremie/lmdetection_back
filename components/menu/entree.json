@@ -9,9 +9,6 @@
   "attributes": {
     "page": {
       "model": "pages"
-    },
-    "souspages": {
-      "collection": "pages"
     }
   }
 }

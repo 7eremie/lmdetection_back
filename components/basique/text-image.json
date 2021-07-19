@@ -33,6 +33,9 @@
         "haut"
       ],
       "default": "bas"
+    },
+    "est_Ancre": {
+      "type": "boolean"
     }
   }
 }
