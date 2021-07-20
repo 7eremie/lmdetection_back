@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_basique_citations",
+  "info": {
+    "name": "Citation",
+    "icon": "quote-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "page": {
+      "model": "pages"
+    }
+  }
+}

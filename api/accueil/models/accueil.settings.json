@@ -17,7 +17,8 @@
     "Contenu": {
       "type": "dynamiczone",
       "components": [
-        "basique.text-image"
+        "basique.text-image",
+        "basique.citation"
       ]
     },
     "Slider": {

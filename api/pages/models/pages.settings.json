@@ -31,7 +31,8 @@
     "contenu": {
       "type": "dynamiczone",
       "components": [
-        "basique.text-image"
+        "basique.text-image",
+        "basique.citation"
       ]
     },
     "page_id": {
