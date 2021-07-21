@@ -42,6 +42,9 @@
     "punaises_active": {
       "type": "boolean",
       "default": false
+    },
+    "Slider_Text": {
+      "type": "text"
     }
   }
 }

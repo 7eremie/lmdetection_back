@@ -15,8 +15,8 @@ const Wrapper = styled.div`
 
 const configuration = {
   toolbar: [
-    'heading',
-    '|',
+    // 'heading',
+    // '|',
     'bold',
     'italic',
     'link',
@@ -26,9 +26,9 @@ const configuration = {
     'indent',
     'outdent',
     '|',
-    'blockQuote',
-    'insertTable',
-    'mediaEmbed',
+    // 'blockQuote',
+    // 'insertTable',
+    // 'mediaEmbed',
     'undo',
     'redo',
   ],
