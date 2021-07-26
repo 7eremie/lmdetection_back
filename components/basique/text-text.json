@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_basique_text_texts",
+  "info": {
+    "name": "Text_text",
+    "icon": "columns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titre_gauche": {
+      "type": "string"
+    },
+    "Texte_gauche": {
+      "type": "richtext"
+    },
+    "est_Ancre": {
+      "type": "boolean"
+    },
+    "Titre_droite": {
+      "type": "string"
+    },
+    "Texte_droite": {
+      "type": "richtext"
+    }
+  }
+}
