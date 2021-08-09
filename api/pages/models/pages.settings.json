@@ -46,6 +46,9 @@
     },
     "Slider_Text": {
       "type": "text"
+    },
+    "Slider_Button": {
+      "type": "string"
     }
   }
 }
