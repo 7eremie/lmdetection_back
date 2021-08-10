@@ -33,7 +33,8 @@
       "components": [
         "basique.text-image",
         "basique.citation",
-        "basique.text-text"
+        "basique.text-text",
+        "basique.block"
       ]
     },
     "page_id": {

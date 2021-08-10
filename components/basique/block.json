@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_basique_blocks",
+  "info": {
+    "name": "Block",
+    "icon": "square"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "page": {
+      "model": "pages"
+    }
+  }
+}

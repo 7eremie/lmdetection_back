@@ -19,13 +19,9 @@
       "components": [
         "basique.text-image",
         "basique.citation",
-        "basique.text-text"
+        "basique.text-text",
+        "basique.block"
       ]
-    },
-    "Slider": {
-      "type": "component",
-      "repeatable": false,
-      "component": "accueil.slider"
     }
   }
 }
