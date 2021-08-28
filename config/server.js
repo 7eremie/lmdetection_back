@@ -3,18 +3,15 @@ module.exports = ({ env }) => ({
   port: env.int('PORT', 1337),
   url: env('PUBLIC_URL', 'http://localhost:1337'),
   proxy: env.bool('IS_PROXIED', true),
-  admin: {
-    auth: {
-      secret: env('ADMIN_JWT_SECRET', '2a68d642b5eaba58aa357029757501d7'),
-    },
-  },
-
   emitErrors: false,
   cron: {
     enabled: env.bool('CRON_ENABLED', false),
   },
 
   admin: {
+    auth: {
+      secret: env('ADMIN_JWT_SECRET', '2a68d642b5eaba58aa357029757501d7'),
+    },
     url: env('PUBLIC_ADMIN_URL', '/admin'),
     autoOpen: false,
     // watchIgnoreFiles: [
